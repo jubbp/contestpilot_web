@@ -1,3 +1,4 @@
+
 name: Build and Deploy Jekyll site
 
 on:
@@ -5,38 +6,60 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
+
+# REQUIRED permissions for Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Prevent overlapping deploys
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: ruby/setup-ruby@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Configure Pages (sets metadata like base_path)
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # Set up Ruby & Bundler cache (Jekyll)
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: '3.1'
           bundler-cache: true
+
+      # Build your Jekyll site from ./docs into ./_site
       - name: Build with Jekyll
         run: |
           cd docs
           bundle exec jekyll build --destination ../_site
-      - uses: actions/upload-artifact@v4
+        env:
+          JEKYLL_ENV: production
+
+      # Upload the special GitHub Pages artifact (NOT the generic upload-artifact)
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          name: github-pages
-          path: '_site'
-      
+          path: _site
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: '.'
-      - uses: actions/deploy-pages@v2
+      # Deploys the artifact uploaded above; no download step necessary
+      - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
