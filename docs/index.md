@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ContestPilt App
+title: ContestPilot App
 nav_order: 1
 ---
 
@@ -12,18 +12,8 @@ ContestPilot is the first of my attempts to redress this imbalance.
 
 ContestPilot is a contest logging software
 
-## Quick Links
+## Get Involved
 
-- [Getting Started]({{ site.baseurl }}/docs/getting-started)
-- [Installation Guide]({{ site.baseurl }}/docs/installation)
-- [Features]({{ site.baseurl }}/docs/features)
-- [API Reference]({{ site.baseurl }}/docs/api)
-- [FAQ]({{ site.baseurl }}/docs/faq)
+ContestPilot is currently in development and closed alpha testing. In the near future we wil release a closed beta version fo testing with a larger testing group.
 
-## What is ContestPilot?
-
-ContestPilot is a powerful iOS application designed to [describe your app's purpose].
-
-### Latest Updates
-
-- Version 1.0.0 - Initial Release
+If you would like to get involved in the Beta Testhing, please drop and email to [vk6dev@gmail.com](mailto:vk6dev@gmail.com)
