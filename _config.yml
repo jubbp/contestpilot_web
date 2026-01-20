@@ -1,7 +1,7 @@
 # Site settings
 title: ContestPilot App 
 description: Complete documentation for the ContestPilot application
-baseurl: "/"
+baseurl: ""
 url: "https://contestpilot.app"
 repository: jubbp/ContestPilot_Web
 
