@@ -1,0 +1,37 @@
+# Site settings
+title: ContestPilot App 
+description: Complete documentation for the ContestPilot application
+baseurl: "/"
+url: "https://contestpilot.app"
+repository: jubbp/ContestPilot_Web
+
+# Theme
+theme: just-the-docs
+
+# Search engine optimization
+lang: en
+
+# Author
+author:
+  name: Phillip Jubb
+  email: vk6dev@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+just_the_docs:
+  collections:
+    docs:
+      nav_exclude: false
+      nav_fold: false
+
+# Exclude files
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .bundle/
