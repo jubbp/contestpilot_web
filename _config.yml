@@ -23,6 +23,7 @@ highlighter: rouge
 
 # Navigation
 just_the_docs:
+  logo: "/assets/images/logo.png"
   collections:
     docs:
       nav_exclude: false
