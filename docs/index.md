@@ -16,4 +16,4 @@ ContestPilot is a contest logging software
 
 ContestPilot is currently in development and closed alpha testing. In the near future we wil release a closed beta version fo testing with a larger testing group.
 
-If you would like to get involved in the Beta Testhing, please drop and email to [vk6dev@gmail.com](mailto:vk6dev@gmail.com)
+If you would like to be involved in the beta testing, please drop and email to [info@contestpilot.app](mailto:info@contestpilot.app)
