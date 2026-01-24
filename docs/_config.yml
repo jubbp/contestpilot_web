@@ -1,5 +1,5 @@
 # Site settings
-title: ContestPilot App 
+title: ContestPilot 
 description: Complete documentation for the ContestPilot application
 baseurl: ""
 url: "https://contestpilot.app"
@@ -23,7 +23,7 @@ highlighter: rouge
 
 # Navigation
 just_the_docs:
-  logo: "assets/images/logo.png"
+  logo: "assets/images/AppIcon/icon_60x60@2x.png"
   collections:
     docs:
       nav_exclude: false
