@@ -12,6 +12,8 @@ ContestPilot is the first of my attempts to redress this imbalance.
 
 ContestPilot is a contest logging software
 
+![Screen shot of Contest Pilot Contest Manager](./assets/images/ContestPilot_screenshot1.png)
+
 ## Get Involved
 
 ContestPilot is currently in development and closed alpha testing. In the near future we wil release a closed beta version fo testing with a larger testing group.
