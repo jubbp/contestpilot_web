@@ -6,7 +6,7 @@ nav_order: 2
 
 ## Closed Alpha
 
-Contest Pilot is currently in closed Alpha testing. I you would like to become part of the testing team, please send an email to [info@contestpilot.app](mailto:info@contestpilot.app)
+Contest Pilot is currently in closed Alpha testing. If you would like to become part of the testing team, please send an email to [info@contestpilot.app](mailto:info@contestpilot.app)
 
 ## Requirements
 
