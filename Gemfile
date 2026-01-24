@@ -5,6 +5,7 @@ ruby "~> 3.1"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "just-the-docs"
 gem "webrick"
+gem "csv"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
