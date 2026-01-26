@@ -12,7 +12,14 @@ ContestPilot is the first of my attempts to redress this imbalance.
 
 ContestPilot is a contest logging software
 
-![Screen shot of Contest Pilot Contest Manager](./assets/images/ContestPilot_screenshot1.png)
+
+<div class="screenshot-row">
+  <img src="/assets/images/ContestPilot_screenshot1.png" class="screenshot screenshot--half zoomable" alt="Screen 1">
+  <img src="/assets/images/ContestPilot_screenshot1.png" class="screenshot screenshot--half zoomable" alt="Screen 2">
+  <img src="/assets/images/ContestPilot_screenshot1.png" class="screenshot screenshot--half zoomable" alt="Screen 3">
+</div>
+
+
 
 ## Get Involved
 

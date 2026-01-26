@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Get Involved
-nav_order: 2
+nav_order: 3
 ---
 
 ## Closed Alpha

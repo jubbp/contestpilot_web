@@ -30,6 +30,8 @@ head_custom: |
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/android-chrome-512x512.png">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+custom_footer: _includes/footer_custom.html
 
 # Navigation
 just_the_docs:
@@ -38,6 +40,7 @@ just_the_docs:
     docs:
       nav_exclude: false
       nav_fold: false
+ 
 
 # Exclude files
 exclude:
