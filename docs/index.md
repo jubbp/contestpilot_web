@@ -15,8 +15,6 @@ ContestPilot is a contest logging software
 
 <div class="screenshot-row">
   <img src="/assets/images/ContestPilot_screenshot1.png" class="screenshot screenshot--half zoomable" alt="Screen 1">
-  <img src="/assets/images/ContestPilot_screenshot1.png" class="screenshot screenshot--half zoomable" alt="Screen 2">
-  <img src="/assets/images/ContestPilot_screenshot1.png" class="screenshot screenshot--half zoomable" alt="Screen 3">
 </div>
 
 
