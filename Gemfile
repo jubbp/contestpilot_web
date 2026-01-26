@@ -2,8 +2,11 @@ source "https://rubygems.org"
 
 ruby "~> 3.1"
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
-gem "just-the-docs"
+
+
+
+gem "github-pages", "~> 228" # locks Jekyll 3.9.3
+gem "just-the-docs", "~> 0.9.0" # compatible with Jekyll 3.9.3
 gem "webrick"
 gem "csv"
 
