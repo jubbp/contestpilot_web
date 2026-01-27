@@ -2,6 +2,7 @@
 layout: home
 title: Screen Shots
 nav_order: 3
+description: Visual tour of ContestPilot screens for contest setup, logging, and export
 ---
 
 ## Contest Management

@@ -32,6 +32,7 @@ head_custom: |
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/android-chrome-512x512.png">
   <link rel="stylesheet" href="/assets/css/custom.css">
 custom_footer: _includes/footer_custom.html
+footer_content: "ContestPilot documentation"
 
 # Navigation
 just_the_docs:

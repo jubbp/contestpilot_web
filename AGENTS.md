@@ -18,6 +18,11 @@ Please limit token usage. Unless asked by the user, don't build or test the resu
 - [x] Align sidebar navigation order (User Manual → Screenshots → Get Involved)
 - [x] Wire up screenshot references with .zoomable and .screenshot CSS classes
 - [x] Verify local Jekyll builds
+- [x] Add FAQ & Troubleshooting page
+- [x] Add Glossary page
+- [x] Add Changelog page
+- [x] Add search descriptions to key pages (home, screenshots, glossary, FAQ)
+- [x] Remove Just the Docs sidebar/footer reference via footer_content override (set custom string)
 
 ### In Progress
 - [ ] Add homepage link to User Manual section
@@ -26,12 +31,8 @@ Please limit token usage. Unless asked by the user, don't build or test the resu
 
 ### To Do
 - [ ] Create Contest Definitions guide explaining built-in contests and how rules engine works
-- [ ] Add FAQ/Troubleshooting section for common user issues
-- [ ] Add glossary of terms (QSO, exchange, multiplier, segment, rework, ADIF, Cabrillo, etc.)
 - [ ] Capture and add more targeted screenshots for manual pages (iPad layouts, validation messages, export previews)
 - [ ] Create Development/Contributing section (if planning open-source contribution model)
-- [ ] Add search metadata/tags for improved discoverability
-- [ ] Create Changelog/What's New section linked to app releases
 - [ ] Review accessibility (color contrast, semantic HTML, screen reader compatibility)
 - [ ] Test responsive design on mobile/tablet devices
 - [ ] Optimize images for load time (compression, lazy loading if applicable)

@@ -2,6 +2,7 @@
 layout: home
 title: ContestPilot App
 nav_order: 1
+description: Overview of the ContestPilot amateur radio contest logging app
 ---
 
 ## Welcome to ContestPilot

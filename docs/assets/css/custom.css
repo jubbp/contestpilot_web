@@ -9,3 +9,10 @@
 .screenshot--half {
   max-width: 175px; /* 50% of 350px */
 }
+
+.footer-note {
+  font-size: 0.9rem;
+  color: #5b6870;
+  text-align: center;
+  padding: 12px 0;
+}
