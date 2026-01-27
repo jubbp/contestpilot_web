@@ -1,23 +1,18 @@
 ---
-layout: home
+layout: default
 title: Get Involved
-nav_order: 3
+nav_order: 4
+has_children: true
+description: Join alpha/beta testing and help improve ContestPilot
 ---
+## Overview
 
-## Closed Alpha
+We’re inviting a small group of users to help test ContestPilot through Alpha and Beta phases. Your feedback will shape validation, scoring, and workflow UX.
 
-Contest Pilot is currently in closed Alpha testing. If you would like to become part of the testing team, please send an email to [info@contestpilot.app](mailto:info@contestpilot.app)
+Use the child pages in this section for phase‑specific onboarding and reporting:
 
-## Requirements
+- Alpha Testing: focused feature testing with frequent iterations
+- Beta Testing: broader coverage on more devices and scenarios
+- Reporting & Feedback: how to capture issues and send useful reports
 
-ContestPilot is a native Apple application running on iPad, iPhone and MacOS. It requires IOS version 15.1 or later.
-
-If you have a relatively recent iPhone, or iPad you should be good to go.
-
-To be part of Alpha and Beta testing, you need to install Apple's TestFlight application on your device. It can be found in your app store.
-
-## Getting Started
-
-Once you have requested and been approved for the testing team, you will need to install the Testflight app on your device(s). After acceptance you will recieve an invitation to join Testflight for Contest Pilot.
-
-Follow the instructions in the email or email [info@contestpilot.app](mailto:info@contestpilot.app) with any issues.
+Contact: [info@contestpilot.app](mailto:info@contestpilot.app)

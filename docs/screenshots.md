@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Screen Shots
-nav_order: 2
+nav_order: 3
 ---
 
 ## Contest Management
