@@ -23,6 +23,7 @@ Please limit token usage. Unless asked by the user, don't build or test the resu
 - [x] Add Changelog page
 - [x] Add search descriptions to key pages (home, screenshots, glossary, FAQ)
 - [x] Remove Just the Docs sidebar/footer reference via footer_content override (set custom string)
+- [x] Create Contest Definitions guide explaining built-in contests and how rules engine works
 
 ### In Progress
 - [ ] Add homepage link to User Manual section
@@ -30,7 +31,6 @@ Please limit token usage. Unless asked by the user, don't build or test the resu
 - [ ] Flesh out Getting Started with detailed step-by-step iPhone/iPad flows and more targeted screenshots
 
 ### To Do
-- [ ] Create Contest Definitions guide explaining built-in contests and how rules engine works
 - [ ] Capture and add more targeted screenshots for manual pages (iPad layouts, validation messages, export previews)
 - [ ] Create Development/Contributing section (if planning open-source contribution model)
 - [ ] Review accessibility (color contrast, semantic HTML, screen reader compatibility)
